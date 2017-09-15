@@ -1,0 +1,8 @@
+ext.ver = [
+        apache_commons: '3.4',
+]
+dependencies{
+    compile(
+            "org.apache.commons:commons-lang3:${ver.apache_commons}",
+    )
+}
